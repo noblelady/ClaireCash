@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336242438430",
+    "firebase_url": "https://clairecash-b7a5c.firebaseio.com",
+    "project_id": "clairecash-b7a5c",
+    "storage_bucket": "clairecash-b7a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336242438430:android:bfcd5d8377385667",
+        "android_client_info": {
+          "package_name": "com.noble.claire.clairecash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336242438430-o7oivuuua9sd56l9elurlmuhghal5c5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.noble.claire.clairecash",
+            "certificate_hash": "cad10a61e7d1bbf1794c43506a6df92739df585c"
+          }
+        },
+        {
+          "client_id": "336242438430-t1fbhupl6sft0mgir7ga9s7d8ksrqbk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBryoHlQvieM1LydGdPfPFL-Fau0epDX0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336242438430-t1fbhupl6sft0mgir7ga9s7d8ksrqbk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
