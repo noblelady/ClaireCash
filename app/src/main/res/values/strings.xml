@@ -4,4 +4,12 @@
     <string name="hint_name">Your Name</string>
     <string name="hint_comment">Your Comment</string>
     <string name="btn_pay">Pay Claire!</string>
+
+    <string name="menu_claire">Claire</string>
+    <string name="menu_about_app">About</string>
+
+    <string name="claire_info">Claire enjoys long naps on the beach. She hopes to one day live a life of luxuary and live in a penthouse suite in San Francisco where she can look down at the city and sip champagne.</string>
+    <string name="claire_desc">Picture of Claire</string>
+
+    <string name="app_info">ClaireCash is similar to other payment apps that you have seen in the past, like SquareCash or Venmo. But there is only one payment option. To pay me, Claire Noble.\nThis app was created using the Firebase Realtime Database to hold transaction information. In the future it will be integrated with the Stripe API to gather real credit card information and allow actual payments to go through.</string>
 </resources>

@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ClaireActivity"
+            android:label="@string/menu_claire" >
+        </activity>
+        <activity
+            android:name=".AppActivity"
+            android:label="@string/menu_about_app">
+        </activity>
     </application>
 
 </manifest>

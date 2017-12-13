@@ -1,10 +1,14 @@
 package com.noble.claire.clairecash;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -149,5 +153,32 @@ public class MainActivity extends AppCompatActivity {
             InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        //TODO:Overview:This Function Inflates the menu
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        //TODO:Overview:React to the user selecting an options menu item
+        {
+            switch (item.getItemId()) {
+                case R.id.action_Claire:
+                    Intent claire = new Intent(this, ClaireActivity.class);
+                    startActivity(claire);
+                    break;
+
+                case R.id.action_about:
+                    Intent about = new Intent(this, AppActivity.class);
+                    startActivity(about);
+                    break;
+
+                default:
+                    return super.onOptionsItemSelected(item);
+            }
+        }
+        return true;
     }
 }
